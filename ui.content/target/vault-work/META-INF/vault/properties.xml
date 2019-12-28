@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>equals - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2019-12-29T00:19:00.593+01:00</entry>
+<entry key="groupId">com.equals</entry>
+<entry key="description">UI content package for equals</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.equals:equals.ui.apps:1.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="createdBy">harish.dv</entry>
+<entry key="name">equals.ui.content</entry>
+<entry key="artifactId">equals.ui.content</entry>
+<entry key="group">com.equals</entry>
+</properties>

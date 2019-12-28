@@ -1,0 +1,5 @@
+com/equals/core/filters/LoggingFilterTest.class
+com/equals/core/models/HelloWorldModelTest.class
+com/equals/core/servlets/SimpleServletTest.class
+com/equals/core/listeners/SimpleResourceListenerTest.class
+com/equals/core/schedulers/SimpleScheduledTaskTest.class

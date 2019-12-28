@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: harish.dv
+Build-Jdk: 11.0.4
+Implementation-Title: equals - UI content
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.equals
+Content-Package-Roots: /conf/equals,/content/dam/equals,/content/equals,
+ /content/experience-fragments/equals
+Content-Package-Description: UI content package for equals
+Content-Package-Dependencies: com.equals:equals.ui.apps:1.0-SNAPSHOT
+Content-Package-Id: com.equals:equals.ui.content:1.0-SNAPSHOT
+Content-Package-Type: content
+
