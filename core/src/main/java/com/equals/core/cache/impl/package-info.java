@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.abb.core.cache.impl;
+package com.equals.core.cache.impl;
 
 import org.osgi.annotation.versioning.Version;

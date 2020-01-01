@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.equals.core.cache;
+package com.equals.core.enums;
 
 import org.osgi.annotation.versioning.Version;

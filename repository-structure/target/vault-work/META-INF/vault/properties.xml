@@ -3,7 +3,7 @@
 <properties>
 <comment>equals - Repository Structure Package</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2019-12-29T00:18:56.623+01:00</entry>
+<entry key="created">2020-01-01T22:35:42.708+01:00</entry>
 <entry key="groupId">com.equals</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.
         Any roots in the Code packages of this project should have their parent enumerated in the Filters list below.</entry>
