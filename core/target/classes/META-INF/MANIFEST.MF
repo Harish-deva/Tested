@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1577914541411
+Bnd-LastModified: 1578081708385
 Bundle-Category: Equals
 Bundle-Description: "Core bundle for equals"
 Bundle-ManifestVersion: 2
 Bundle-Name: equals - Core
 Bundle-SymbolicName: equals.core
-Bundle-Version: 1.0.0.20200101213541410
+Bundle-Version: 1.0.0.20200103200148385
 Created-By: 11.0.4 (Oracle Corporation)
 Export-Package: com.equals.core.cache;version="1.0",com.equals.core.ca
  che.impl;version="1.0";uses:="com.equals.core.cache",com.equals.core.
@@ -14,10 +14,10 @@ Export-Package: com.equals.core.cache;version="1.0",com.equals.core.ca
  rvice.event",com.equals.core.models;version="1.0";uses:="javax.annota
  tion,org.apache.sling.api.resource,org.apache.sling.models.annotation
  s,org.apache.sling.models.annotations.injectorspecific",com.equals.co
- re.schedulers;version="1.0",com.equals.core.servlets;version="1.0";us
- es:="javax.servlet,org.apache.sling.api,org.apache.sling.api.servlets
- ",com.equals.core.utils;version="1.0";uses:="javax.jcr,org.apache.sli
- ng.api.resource"
+ re.schedulers;version="1.0",com.equals.core.services.impl;version="1.
+ 0",com.equals.core.servlets;version="1.0";uses:="javax.servlet,org.ap
+ ache.sling.api,org.apache.sling.api.servlets",com.equals.core.utils;v
+ ersion="1.0";uses:="javax.jcr,org.apache.sling.api.resource"
 Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
  rsion="[1.27,2)",com.equals.core.cache;version="[1.0,2)",com.equals.c
  ore.enums;version="[1.0,2)",com.equals.core.filters;version="[1.0,2)"
@@ -33,13 +33,13 @@ Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
  g.apache.sling.settings;version="[1.3,2)",org.osgi.service.event;vers
  ion="[1.3,2)",org.slf4j;version="[1.7,2)",org.xml.sax,org.xml.sax.hel
  pers
-Private-Package: com.equals.core.services,com.equals.core.services.imp
- l,net.sf.ehcache,net.sf.ehcache.bootstrap,net.sf.ehcache.concurrent,n
- et.sf.ehcache.config,net.sf.ehcache.constructs.asynchronous,net.sf.eh
- cache.constructs.blocking,net.sf.ehcache.distribution,net.sf.ehcache.
- event,net.sf.ehcache.exceptionhandler,net.sf.ehcache.extension,net.sf
- .ehcache.hibernate,net.sf.ehcache.loader,net.sf.ehcache.management,ne
- t.sf.ehcache.store,net.sf.ehcache.util
+Private-Package: com.equals.core.services,net.sf.ehcache,net.sf.ehcach
+ e.bootstrap,net.sf.ehcache.concurrent,net.sf.ehcache.config,net.sf.eh
+ cache.constructs.asynchronous,net.sf.ehcache.constructs.blocking,net.
+ sf.ehcache.distribution,net.sf.ehcache.event,net.sf.ehcache.exception
+ handler,net.sf.ehcache.extension,net.sf.ehcache.hibernate,net.sf.ehca
+ che.loader,net.sf.ehcache.management,net.sf.ehcache.store,net.sf.ehca
+ che.util
 Provide-Capability: osgi.service;objectClass:List<String>="com.equals.
  core.cache.EhCacheService",osgi.service;objectClass:List<String>="com
  .equals.core.services.SessionManager",osgi.service;objectClass:List<S

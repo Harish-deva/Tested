@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.equals.core.services.impl.SessionManagerImpl" activate="signIn" deactivate="signOut">
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.equals.core.services.impl.SessionManagerImpl" immediate="true" activate="signIn" deactivate="signOut">
+  <property name="service.description" type="String" value="Handle Session safely!!"/>
   <service>
     <provide interface="com.equals.core.services.SessionManager"/>
   </service>

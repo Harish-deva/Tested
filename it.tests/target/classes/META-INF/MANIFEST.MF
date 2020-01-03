@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1577914547849
+Bnd-LastModified: 1578081715052
 Bundle-Category: Equals
 Bundle-Description: "Bundles for Integration Tests for equals"
 Bundle-ManifestVersion: 2
 Bundle-Name: equals - Integration Tests Bundles
 Bundle-SymbolicName: equals.it.tests
-Bundle-Version: 1.0.0.20200101213547849
+Bundle-Version: 1.0.0.20200103200155051
 Created-By: 11.0.4 (Oracle Corporation)
 Export-Package: com.equals.it.tests;version="1.0";uses:="org.apache.sl
  ing.junit.annotations,org.junit,org.junit.runner"
